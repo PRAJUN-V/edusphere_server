@@ -9,3 +9,6 @@ sudo apt install python3-pip python3-dev nginx
 
 added aws key in .env folder
 
+to create virtual environment in server
+    - virtualenv venv
+
