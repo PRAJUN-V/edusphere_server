@@ -117,7 +117,7 @@ class ResetPasswordView(APIView):
 
 class GoogleLogin(SocialLoginView): # if you want to use Authorization Code Grant, use this
     adapter_class = GoogleOAuth2Adapter
-    callback_url = "http://localhost:5173/"
+    callback_url = "https://edusphere-client.vercel.app/"
     client_class = OAuth2Client
 
 class GoogleLogin(SocialLoginView): # if you want to use Implicit Grant, use this
