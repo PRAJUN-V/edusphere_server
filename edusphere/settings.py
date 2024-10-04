@@ -152,7 +152,7 @@ DATABASES = {
     }
 }  
 
-DATABASES['default'] = dj_database_url.parse('postgresql://edusphere_backend_user:E7Fxf3h0hKzccyiSDxtu3bEhsbtwupbt@dpg-crcom5l2ng1s73d09j30-a.oregon-postgres.render.com/edusphere_backend')
+DATABASES['default'] = dj_database_url.parse('postgresql://edusphere_backend_qj4m_user:VAzDQyU63D6vj2qOzXe3zN2Q7T72IyJc@dpg-crvl179u0jms73dpm2mg-a.oregon-postgres.render.com/edusphere_backend_qj4m')
 
 # postgresql://edusphere_backend_user:E7Fxf3h0hKzccyiSDxtu3bEhsbtwupbt@dpg-crcom5l2ng1s73d09j30-a.oregon-postgres.render.com/edusphere_backend
 
