@@ -107,8 +107,8 @@ def create_checkout_session(request):
                     },
                 ],
                 mode='payment',
-                success_url=f'http://localhost:5173/student/course-detail/{course_id}?session_id={{CHECKOUT_SESSION_ID}}',
-                cancel_url='http://localhost:3000/cancel',
+                success_url=f'https://edusphere-client.vercel.app/student/course-detail/{course_id}?session_id={{CHECKOUT_SESSION_ID}}',
+                cancel_url='https://edusphere-client.vercel.app/cancel',
             )
             return JsonResponse({'id': checkout_session.id})
         except json.JSONDecodeError:
